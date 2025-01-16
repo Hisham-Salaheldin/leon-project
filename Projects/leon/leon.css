@@ -121,7 +121,7 @@ nav .links ul li a:hover{
 
 /* landing secion */
 main .landing{
-    background-image: url(/images/Hello-images/landing.jpg);
+    background-image: url(Hello-images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 64px);
