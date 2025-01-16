@@ -341,7 +341,7 @@ main .service{
 
     }
 }
-.about-section .container:hover img{
+.about-section .container .about-img:hover img{
     scale: 1.05;
 }
 .about-section .container .about-img::before{
@@ -371,11 +371,11 @@ main .service{
     transition: 0.5s ease-in-out;
 }
 
-.about-section .container:hover ::after{
+.about-section .container .about-img:hover::after{
     margin-left: 20px;
 }
 .about-section .about-content{
-    line-height: 2;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
